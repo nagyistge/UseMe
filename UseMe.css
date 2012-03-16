@@ -1,0 +1,183 @@
+﻿/***********************************
+    Developed by Muaz Khan
+    @muazkh: (http://twitter.com/muazkh)
+    Google+: (https://plus.google.com/100325991024054712503)
+    Quora: (http://quora.com/muaz-khan)
+    Github: (https://github.com/muaz-khan)
+***********************************/
+* {
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+    
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -ms-user-select: none;
+}
+
+body, html
+{
+    background-color: #FBFBFB;
+    
+    font-size: 13px;
+    font-family: "segoe ui", arial, helvetica, sans-serif;
+    line-height: 20px;
+}
+fieldset {
+    padding: 2px 20px;
+    border: 0;
+    border-top: 1px solid #E5E5E5;
+    margin-top: 10px;
+    cursor: default;
+}
+legend {
+    padding: 5px;
+    color: gray;
+}
+
+.output
+{
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 5px;
+    background: #F5F5F5;
+    border: 1px solid #E5E5E5;
+}
+
+.output h2 {
+    padding: 5px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.browser div {
+    display: inline-block;
+    padding: 5px;
+}
+
+.browser .name
+{
+    width: 100px;
+}
+
+.version {
+    border-left: 1px solid #E5E5E5;
+}
+.browser:hover, .tooltip, h2:hover
+{
+    color: black;
+    background: white;
+    box-shadow: 0 0 0 #005875, 
+                0 0 2px #005875,
+                0 0 2px #005875,
+                0 0 2px #005875, 
+                0 0 2px #005875,
+                0 0 2px #005875;
+
+}
+
+.match {
+    background: greenyellow;
+}
+.upper, .partial-support
+{
+    background-color: #FFE1C4;
+}
+.lower, .unknown-support
+{
+    background-color: #FFFFE8;
+}
+.no-support
+{
+    background-color: #990000;
+    color: white;
+}
+
+input {
+    border-radius: 1px;
+    border: 1px solid #D9D9D9;
+    font-size: 15px;
+    height: 32px;
+    width: 40%;    
+    margin-top: 0.5em;
+    padding: 0 8px;
+    
+    -moz-user-select: initial;
+    -o-user-select: initial;
+    -webkit-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+}
+
+input:focus {    
+    background: whiteSmoke;
+    outline: none;
+}
+
+.tooltip 
+{
+    position: absolute; 
+    padding: 5px;
+    opacity: 0;
+}
+.tooltip, h2, .browser, .help-container {
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+}
+.search-hint {
+     position: absolute;
+    background: white;
+    border: 1px solid #D9D9D9;
+    max-height: 200px;
+    overflow: auto;
+    cursor: default;
+}
+.search-hint div {
+    padding: 5px;
+}
+.search-hint div:hover 
+{
+    background: #00A2E8;
+    color: #fff; 
+}
+h2 {
+    font-size: 13px;
+}
+.help-container {
+    margin-top: -400px;
+    position: absolute;
+    background-color: #FBFBFB;
+    width: 96%;
+    border-bottom: 1px solid #E5E5E5;
+    line-height: 2;
+}
+.help 
+{
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+    border: 1px solid #3079ED;
+    border-bottom-left-radius: 2px;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 3px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: default;
+    z-index: 100;
+}
+.help:hover {
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.0s;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #357ae8);
+    border: 1px solid #2F5BB7;
+    color: white;
+}
+.help:active {
+    -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+}

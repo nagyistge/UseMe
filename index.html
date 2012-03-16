@@ -1,0 +1,82 @@
+﻿<!--/***********************************
+    Developed by Muaz Khan
+    @muazkh: (http://twitter.com/muazkh)
+    Google+: (https://plus.google.com/100325991024054712503)
+    Quora: (http://quora.com/muaz-khan)
+    Github: (https://github.com/muaz-khan)
+***********************************/-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+	<link rel="canonical" href="https://muaz-khan.github.com/Experiments/UseMe/" />
+	<meta property="og:title" content="UseMe | Comparative CSS3/HTML5 features | Muaz Khan">
+    <!-- <meta property="og:image" content=""> -->
+    <meta property="og:description" content="An easiest, quickest but comparative way of HTML5/CSS3 feature detection info. Designed by Muaz Khan (@muazkh) - data taken from: http://caniuse.com">
+	<title>UseMe | Comparative CSS3/HTML5 features | Muaz Khan</title>
+	<meta name="description" content="An easiest, quickest but comparative way of HTML5/CSS3 feature detection info. Designed by Muaz Khan (@muazkh) - data taken from: http://caniuse.com">
+	<meta name="author" content="Muaz Khan">
+	<link rel="author" type="text/html" href="https://plus.google.com/100325991024054712503">
+	<link rel="stylesheet" href="UseMe.css">
+	<link rel="stylesheet" href="ScrollBar.css">
+    </head>
+    <body itemscope itemtype="http://schema.org/WebPage">
+        <div classs="header" style="text-indent: -111111px;top: -500px;position: absolute;">
+            <h1>UseMe | Comparative CSS3/HTML5 features | <a href="https://plus.google.com/100325991024054712503?rel=author" rel="author" title="Muaz Khan | Google+ Profile">Muaz Khan</a></h1>
+            <ul>
+                <li><a href="https://plus.google.com/100325991024054712503?rel=author" rel="author">Muaz Khan | Google+ Profile</a></li>
+                <li><a href="http://twitter.com/muazkh">@muazkh (Muaz Khan on Twitter)</a></li>
+                <li><a href="http://quora.com/muaz-khan">Muaz Khan | Quora profile</a></li>
+                <li><a href="http://muaz-khan.blogspot.com">Muaz Khan Blog</a></li>
+                <li><a href="https://github.com/muaz-khan">Muaz Khan | Github</a></li>
+            </ul>        
+        </div>
+        <div id="help" class="help">Show Help</div>
+        <fieldset id="help-container" class="help-container">
+            <legend>UseMe | Comparative CSS3/HTML5 features | <a href="https://plus.google.com/100325991024054712503?rel=author" rel="author" title="Muaz Khan | Google+ Profile">Muaz Khan</a></legend>
+            <p>
+                You can search and compare any feature.
+            </p>
+            <p>
+                To compare two features:
+            </p>
+            <ul style="margin-left: 20px; list-style: circle;">
+                <li>
+                    Type "Audio<strong>/vs/</strong>Video" in the search box
+                </li>
+                <li>
+                    Or drag second feature (e.g. video) in the "Search Result" section
+                </li>
+            </ul>
+            <p>
+                You can click the header of any feature to directly search it. You can also share the feature.
+            </p>
+            <p>
+                <strong>Disclaimer:</strong> Data has taken from <a href="http://caniuse.com" target="_blank">caniuse.com</a> – so all data relevant rights goes to <a href="http://twitter.com/Fyrd">@Fyrd</a>.
+            </p>
+            <p>
+                This project is open-source at: <a href="https://github.com/muaz-khan/Experiments">https://github.com/muaz-khan/Experiments</a>
+            </p>
+            <p>
+                Developed & Designed by <a href="https://plus.google.com/100325991024054712503?rel=author" rel="author" title="Muaz Khan | Google+ Profile">Muaz Khan</a> (<a href="https://github.com/muaz-khan" title="Muaz Khan on Github">Github</a> | <a href="http://twitter.com/muazkh" title="Muaz Khan on Twitter">@muazkh</a> | <a href="http://muaz-khan.blogspot.com" title="Muaz Khan Blog">Blog</a>)
+            </p>
+        </fieldset>
+
+        <div style="padding: 10px; text-align: center;">
+            <input id="search" type="search" results="10" 
+                   placeholder="Canvas/vs/WebGL" 
+                   value="Canvas" />
+        </div>
+        <div id="search-hint" class="search-hint"></div>
+        
+        <fieldset id="search-result"></fieldset>
+        <fieldset id="other-results"></fieldset>
+        
+        <div id="tooltip" class="tooltip"></div>
+        
+        <script src="UseMe.js"></script>
+    </body>
+</html>
